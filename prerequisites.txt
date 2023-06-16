@@ -1,0 +1,15 @@
+Ros Packages:
+	rosserial_arduino 
+	https://github.com/ros-drivers/rosserial
+
+Arduino:
+	Rosserial
+	Ctrl+Shift+I in Arduino IDE and search rosserial
+
+Python:
+	getch
+	pyPS4Controller
+	PIL
+	tkinter
+
+sudo apt-get install python3-pil python3-pil.imagetk
