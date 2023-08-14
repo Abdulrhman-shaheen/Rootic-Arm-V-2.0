@@ -6,12 +6,18 @@ To open the Gui, run `roscore` on one instance, then run from the package `begin
 
 `rosserial` is an essential package that receives the published data from  then do the Arduino part where it matches each Servo with the data sent on its topic.s
  
-Clone the `Rosserial` package by:
-`cd cd catkin_ws/src/rosserial/`  
-`git clone https://github.com/ros-drivers/rosserial.git`
+To clone with the `Rosserial` package use:
 
-To run `rosserial` you can do:
-`rosrun rosserial_python serial_node.py /dev/ttyUSB0` (USB0 may change according to the port) in a separate terminal.
+```
+git clone --recurse-submodules https://github.com/Abdulrhman-shaheen/Rootic-Arm-V-2.0.git
+```
+To run `rosserial` you can use:
+
+``` 
+rosrun rosserial_python serial_node.py /dev/ttyUSB0
+```
+(USB0 may change according to the port) in a separate terminal.
+<br><br>
 
 Upload the Arduino code, `Servos_Control.ino` found in the `Arduino` Folder to your Arduino board and you're good to go. 
 ## The Controller
